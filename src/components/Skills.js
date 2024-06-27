@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import { FaReact, FaJs, FaHtml5, FaCss3Alt, FaGitAlt, FaDatabase, FaMicrosoft } from 'react-icons/fa';
-import { SiRedux, SiTailwindcss, SiTypescript, SiJest, SiMaterialUi, SiCplusplus, SiAzuredevops } from 'react-icons/si';
+import { FaReact, FaJs, FaHtml5, FaCss3Alt, FaDatabase, FaMicrosoft } from 'react-icons/fa';
+import { SiRedux, SiTailwindcss, SiTypescript, SiJest, SiCplusplus, SiAzuredevops } from 'react-icons/si';
 
 const skillIcons = {
   "React.js": <FaReact />,
@@ -17,7 +17,6 @@ const skillIcons = {
   "SQL": <FaDatabase />,
   "Azure": <SiAzuredevops />,
   "Power BI": <FaMicrosoft />
-  // Add more icons here as needed
 };
 
 const Skills = () => {
@@ -30,7 +29,7 @@ const Skills = () => {
         {skills.map((skill, index) => (
           <div key={index} className="flex flex-col md: flex-row items-center p-4 bg-gray-300 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200">
             <div className="text-3xl text-blue-500 mr-4">
-              {skillIcons[skill] || <FaReact />} {/* Default to React icon if not found */}
+              {skillIcons[skill] || <FaReact />} 
             </div>
             <div className="text-lg font-medium">{skill}</div>
           </div>
