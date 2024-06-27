@@ -1,0 +1,22 @@
+.page {
+    text-align: center;
+    background-color: #141414;
+    color: white;
+  height: 97vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .main-content {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+  }
+  
+  @keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+  }
+  
