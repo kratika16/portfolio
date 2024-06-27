@@ -3,7 +3,6 @@ import { Link } from "react-scroll";
 import {
   FiUser,
   FiBriefcase,
-  FiCode,
   FiBook,
   FiAward,
   FiMail,
