@@ -55,7 +55,7 @@ const Navbar = () => {
       {/* <h1 className="text-3xl font-bold mb-8">Kratika Yadav</h1> */}
       <img
         src={MyPicture}
-        className="rounded-full border-2 border-gray-300 xxs:h-12 xs:h-20 sm:h-32 lg:h-36 w-36 mb-4 mt-4 cursor-pointer"
+        className="rounded-full border-2 border-gray-300 xxs:h-8 xs:h-20 sm:h-32 lg:h-36 w-36 mb-4 mt-4 cursor-pointer"
         onClick={openModal}
         alt="profile"
       />
