@@ -14,7 +14,29 @@ const initialState = {
       role: "Technical Lead",
       location: "Noida, India",
       duration: "09/2024 - Current",
-      projects: [],
+      projects: [
+        {
+          name: "Northern Trust : The Carbon Ecosystem & Tech Panel",
+          role: "techincal Lead",
+          duration: "09/2024 - Current",
+          description: [
+            "Spearheading the development of the Zodia(Tech Panel) application from the ground up, single-handedly architecting the frontend, integrating core APIs, and managing the end-to-end deployment pipeline through production",
+            "Architected and developed 5+ core features for the Carbon ecosystem from scratch, ensuring high-performance standards and deep technical alignment across the entire application flow.",
+            "Engineered performance optimizations that improved feature response times and rendering by 80%, significantly enhancing the user experience for complex data-heavy modules.",
+            "Orchestrated the seamless migration of application infrastructure from Pivotal Cloud Foundry (PCF) to Azure, ensuring zero downtime and compatibility with cloud-native services.",
+          ],
+          tech: [
+            "React.js",
+            " Node.js",
+            "Redux",
+            "Redux Saga",
+            "Zustand",
+            "Jest",
+            "ag-Grid",
+            "Azure",
+          ],
+        },
+      ],
     },
     {
       company: "Newgen Software Technologies",
@@ -137,6 +159,7 @@ const initialState = {
     "CSS",
     "Material UI",
     "Tailwind CSS",
+    "python",
     "C++",
     "C",
     "SQL",
@@ -158,6 +181,11 @@ const initialState = {
     major: "Electronics and Communication Engineering",
   },
   achievements: [
+    {
+      title: "Achiever Extraordinaire Award",
+      description:
+        " Achiever Extraordinaire Award (EY GDS) from the client at Northern Trust for being the best performer in the team. (Sept 2025)",
+    },
     {
       title: "High Five Award",
       description:
